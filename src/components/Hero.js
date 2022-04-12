@@ -28,7 +28,13 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <div></div>
+            <div className="underline"></div>
+            <h1>I'm Myles</h1>
+            <h4>Freelance Web Developer</h4>
+            <Link to="/contact" className="btn">
+              Contact Me
+            </Link>
+            <SocialLinks />
           </div>
         </article>
         <Image fluid={fluid} className="hero-img" />
